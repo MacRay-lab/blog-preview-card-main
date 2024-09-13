@@ -17,19 +17,18 @@ body{
     height: 100vh;
 }
 .blog{
-    min-width: 275px;
-    max-width: 350px;
+    max-width: 375px;
     margin: auto 25px;
     padding: 20px;
     background-color:  hsl(0, 0%, 100%);
     border-radius: 20px;
     box-shadow: 10px 10px;
-    border: 1px solid;        
+    border: none;        
 }
 img{
     border-radius: 15px;
     width: 100%;
-    max-height: auto;
+    height: auto;
 }
 button{
     font-family: 'Figtree', sans-serif;
@@ -44,7 +43,6 @@ button{
 p{
     margin-top: 10px;
     color:  hsl(0, 0%, 7%);
-    text-decoration: solid;
     font-size: 11px;
 }
 h2{
@@ -61,7 +59,6 @@ span:hover{
    color: hsl(0, 0%, 42%);
    font-size: 15px;
    line-height: 19px;
-   text-decoration: solid;
    opacity: 0.8; 
 }
 .flex{
@@ -80,10 +77,4 @@ span:hover{
     position: absolute;
     bottom: 5px;
     font-size: 12px;
-    
-}
-@media (min-width:576px){
-    .Blog{
-        max-width: 350px;
-    }
 }
