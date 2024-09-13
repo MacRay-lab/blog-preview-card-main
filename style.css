@@ -18,9 +18,9 @@ body{
 }
 .blog{
     min-width: 275px;
-    max-width: 375px;
+    max-width: 350px;
     margin: auto 25px;
-    padding: 15px;
+    padding: 20px;
     background-color:  hsl(0, 0%, 100%);
     border-radius: 20px;
     box-shadow: 10px 10px;
@@ -54,12 +54,15 @@ h2{
 }
 span:hover{
     color:  hsl(47, 88%, 63%);
+    cursor: pointer;
 }
 #p2{
    padding-bottom: 20px;
    color: hsl(0, 0%, 42%);
-   font-size: 13px;
-   line-height: 19px; 
+   font-size: 15px;
+   line-height: 19px;
+   text-decoration: solid;
+   opacity: 0.8; 
 }
 .flex{
     display: flex;
@@ -81,6 +84,6 @@ span:hover{
 }
 @media (min-width:576px){
     .Blog{
-        max-width: 375px;
+        max-width: 350px;
     }
 }
